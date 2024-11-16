@@ -1,0 +1,164 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('building3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+nav {
+    background-color: rgb(34, 33, 33);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.assignment-box {
+    grid-column: span 2;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid hotpink;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.assignment-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.assignment-box p {
+    margin-bottom: 10px;
+}
+
+.assignment-box a {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.assignment-box img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.paragraph-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph-section .hotpink {
+    background-color: hotpink;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.paragraph-section .pink {
+    background-color: pink;
+    font-family: Courier, monospace;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.paragraph-section .lightpink {
+    background-color: lightpink;
+    font-family: 'Corsiva', cursive;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    
+
+}
+
+
+.styled-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.styled-button:hover {
+    background-color: darkorange;
+   
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
